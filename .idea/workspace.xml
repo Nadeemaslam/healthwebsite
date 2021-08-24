@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24aa3e59-5eee-46c3-a4a0-90ea2d850fe8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healthapp/templates/healthapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healthapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/css/flashy.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/css/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/css/pogo-slider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/css/responsiveslides.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/css/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/fonts/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/fonts/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/fonts/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/fonts/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/about-img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/about-img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/about-img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/blog-img-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/blog-img-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/blog-img-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/doc1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/doc2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/doc3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/footer-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/gallery-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/gallery-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/gallery-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/gallery-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/gallery-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/gallery-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/gallery-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/gallery-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/menu-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/ptn-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/slider-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/slider-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/slider-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/images/tag-line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/TweenMax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/contact-form-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/form-validator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/images-loded.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/isotope.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/jquery.pogo-slider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/responsiveslides.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/slider-index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/healthapp/js/smoothscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/healthwebsite/base.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healhtwebsite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
+              <folding>
+                <element signature="e#313#322#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healhtwebsite/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+              <folding>
+                <element signature="e#637#669#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthapp/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthapp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/healthapp/templates/healthapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="305" column="52" selection-start-line="305" selection-start-column="52" selection-end-line="305" selection-end-column="52" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/healthwebsite/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#30820#30826#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/healthapp/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-21337" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>src=&quot;</find>
+      <find>jpg&quot;</find>
+      <find>#contact</find>
+      <find>contact</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>src=&quot;{% static 'healthapp/</replace>
+      <replace>jpg' %}&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/healhtwebsite/urls.py" />
+        <option value="$PROJECT_DIR$/healthapp/views.py" />
+        <option value="$PROJECT_DIR$/healthapp/urls.py" />
+        <option value="$PROJECT_DIR$/healhtwebsite/settings.py" />
+        <option value="$PROJECT_DIR$/templates/healthwebsite/base.html" />
+        <option value="$PROJECT_DIR$/healthapp/templates/healthapp/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="healhtwebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healhtwebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healhtwebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healhtwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healhtwebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healhtwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="healthapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="healhtwebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="healhtwebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="healthapp" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/healthapp/images" />
+      <recent name="$PROJECT_DIR$/static/healthapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24aa3e59-5eee-46c3-a4a0-90ea2d850fe8" name="Default Changelist" comment="" />
+      <created>1629718939657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629718939657</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.329927" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/healhtwebsite/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="e#637#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healhtwebsite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="e#313#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/healthapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21337" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/healthwebsite/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#30820#30826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthapp/templates/healthapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="305" column="52" selection-start-line="305" selection-start-column="52" selection-end-line="305" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
