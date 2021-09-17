@@ -1,44 +1,232 @@
 {% extends 'healthwebsite/base.html' %}
 {% load static %}
 {% block content %}
-<!-- Start Banner -->
+
+<div class="parallax-section">
+	<!-- Start header -->
+	<header class="top-header">
+		<nav class="navbar header-nav navbar-expand-lg">
+            <div class="container">
+				<a class="navbar-brand" href="index.html"><img src="{% static 'healthapp/images/ajlogo.png'%}" alt="image"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="#home">Home</a></li>
+                        <li><a class="nav-link" href="#about">About Us</a></li>
+                        <li><a class="nav-link" href="#services">Services</a></li>
+						<li><a class="nav-link" href="#appointment">Appointment</a></li>
+                        <li><a class="nav-link" href="#gallery">Gallery</a></li>
+						<li><a class="nav-link" href="#team">Doctor</a></li>
+                        <li><a class="nav-link" href="#blog">Blog</a></li>
+						<li><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+	</header>
+	<!-- End header -->
+	<div class="row banner-section">
+		<div class="col-md-12">
+			<span>Connecting People For Better Healthcare</span>
+		<p>Get ahead with the expertise and be a part of the change</p>
+		</div>
+		<div class="button-flex">
+			<a href="#contact">JOIN AS INVESTOR</a>
+			<a href="#contact">JOIN AS EXPERT</a>
+		</div>
+
+	</div>
+
+	<!-- Start Banner -->
 	<div class="ulockd-home-slider">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="pogoSlider" id="js-main-slider">
-					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(static/healthapp/images/slider-01.jpg);">
+					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(static/healthapp/images/slider-02.jpg);">
 						<div class="lbox-caption pogoSlider-slide-element">
 							<div class="lbox-details">
-								<h1>Welcome to AJHealth Care</h1>
-								<p>A First Leading Healthcare Provider Firm in Kashmir Dedicated to Creating Platform for Better Healthcare</p>
-								<a href="#contact" class="btn">Contact Us</a>
+								<div><h1>WHAT</h1></div>
+								<div><ul>
+									<li><h2><i class="fa fa-bed"></i> &nbsp; 500 Beds of tertiary care</h2></li>
+									<li><h2><i class="fa fa-hospital"></i> &nbsp; 2 long term care and rehabilitation centers</h2></li>
+								</ul></div>
 							</div>
 						</div>
 					</div>
 					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(static/healthapp/images/slider-02.jpg);">
 						<div class="lbox-caption pogoSlider-slide-element">
 							<div class="lbox-details">
-								<h1>Connecting People For Better Healthcare</h1>
-								<p>Get ahead with the expertise and be a part of the change</p>
-								<a href="#appointment" class="btn">Appointment</a>
+								<div><h1>WHAT</h1></div>
+								<div><ul>
+									<li><h2><i class="fa fa-thermometer"></i> &nbsp;50 Pharmacies</h2></li>
+									<li><h2><i class="fa fa-users"></i> &nbsp;  More Than 15000 Patients to be treated daily</h2></li>
+								</ul></div>
 							</div>
 						</div>
 					</div>
-					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(static/healthapp/images/slider-03.jpg);">
+					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(static/healthapp/images/slider-02.jpg);">
 						<div class="lbox-caption pogoSlider-slide-element">
 							<div class="lbox-details">
-								<h1>Why AJHealth Care</h1>
-								<p>Build standard, sustainable, and affordable healthcare system that provides STEEEP (safe, timely, equitable, efficient, effective and person centered) healthcare to the people of Kashmir </p>
-								<a href="#contact" class="btn">Contact Us</a>
+								<div><h1>WHAT</h1></div>
+								<div><ul>
+									<li><h2><i class="fa fa-male"></i> &nbsp;More than 5000 Employees</h2></li>
+									<li><h2><i class="fa fa-home"></i> &nbsp;20 Secondary care centers</h2></li>
+								</ul></div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(static/healthapp/images/slider-02.jpg);">
+						<div class="lbox-caption pogoSlider-slide-element">
+							<div class="lbox-details">
+								<div><h1>WHAT</h1></div>
+								<div><li><h2></h2></li>
+									<li><h2><i class="fa fa-home"></i> &nbsp;50 Primary care centers</h2></li>
+									<li><h2><i class="fa fa-hospital"></i> &nbsp;1 Home nursing care</h2></li>
+								</div>
 							</div>
 						</div>
 
 					</div>
+
+					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(static/healthapp/images/slider-02.jpg);">
+						<div class="lbox-caption pogoSlider-slide-element">
+							<div class="lbox-details">
+								<div><h1>How</h1></div>
+								<div><ul>
+									<li><h2><i class="fa fa-heart"></i> &nbsp; Repeated &amp; robust training and skills development programs</h2></li>
+									<li><h2><i class="fa fa-plus"></i> &nbsp; Full spectrum of care – PHCs, Secondary, tertiary care, and Rehabilitation</h2></li>
+								</ul></div>
+								</div>
+							</div>
+						</div>
+					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(static/healthapp/images/slider-02.jpg);">
+						<div class="lbox-caption pogoSlider-slide-element">
+							<div class="lbox-details">
+								<div><h1>How</h1></div>
+								<div><ul>
+									<li><h2><i class="fa fa-handshake"></i> &nbsp;Partnership with top physicians in Kashmir</h2></li>
+									<li><h2>&#8377;	&nbsp;Guaranteed healthy return of investment with increase in asset value</h2></li>
+								</ul></div>
+							</div>
+						</div>
+					</div>
+					<div class="pogoSlider-slide" data-transition="fade" data-duration="1500" style="background-image:url(static/healthapp/images/slider-02.jpg);">
+						<div class="lbox-caption pogoSlider-slide-element">
+							<div class="lbox-details">
+								<div><h1>Why</h1></div>
+								<div><ul>
+									<li><h2><i class="fa fa-heartbeat"></i> &nbsp;Build standard, sustainable, and affordable healthcare system,</h2></li>
+										<li><h2><i class="fa fa-medkit"></i> &nbsp;that provides STEEEP (safe, timely, equitable, efficient, effective and person centered) healthcare to the people of Kashmir</h2></li>
+								</ul></div>
+							</div>
+						</div>
+					</div>
+
+					</div>
+
+
+
 				</div><!-- .pogoSlider -->
 			</div>
 		</div>
-	</div>
 	<!-- End Banner -->
+<div class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 align-self-center">
+			  <div class="services-heading js-scroll">
+			  <h1>WHAT WE DO</h1>
+				<p>A First Leading Healthcare Provider Firm in Kashmir Dedicated to Creating Platform for Better Healthcare</p>
+            </div>
+				  <div class="row" id="counter">
+					  <div class="row">
+							  <div class="col-md-6 col-sm-12 col-12">
+								<div class="services-item services-item-left  ">
+								  <h3 class="title">Design and Construction Management</h3>
+												<p class="description">
+													We believe in developing hospital designs, which help in the healing process keeping in view lean thinking with patient flow and infection control practices. We design and redesign healthcare spaces based on your ideas and international standards
+												</p>
+								</div>
+							  </div>
+							  <div class="col-md-6 col-sm-12 col-12">
+								<div class="services-item services-item-right">
+								  <h3 class="title">Operations and Management Services</h3>
+								<p class="description">
+									Our team evaluates the current status of the hospital in terms of revenue, expenses, productivity, performance gaps, and business processes. Based on the findings we send our team not only to improve overall performance but also do the knowledge transfers
+								</p>
+								</div>
+							  </div>
+						  </div>
+              <div class="col-md-6">
+                <div class="services-item services-item-left ">
+					<h3 class="title">Healthcare Business Consulting</h3>
+                  <p class="description">
+					We study your project from all the aspects and devise  strategies to maximize facility’s  operational  efficiency and profit margins. During our consultation  we don’t tell you what to do but show you how to achieve excellence
+				</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="services-item services-item-right ">
+                  <h3 class="title">Turn-key Projects</h3>
+								<p class="description">
+									AJ-Healthcare delivers your turnkey project on time, on budget, and meet all stakeholder expectations. Our experts all over the globe shall ensure that your new facility is both at the forefront of regional best practice and is proofed for future challenges, risks and considerations
+								</p>
+                </div>
+              </div>
+
+
+
+				<div class="col-md-6">
+                <div class="services-item services-item-left ">
+					<h3 class="title">Hospital Planning</h3>
+								<p class="description">
+									From concept to operational management we commit to work hand in hand to develop a healthcare facility that fits all your needs. We support you at every level and complete the full cycle from feasibility, DPR & market intelligence, construction, MEP, man-power planning, commissioning, and operations
+								</p>
+                </div>
+              </div>
+
+				<div class="col-md-6">
+                <div class="services-item services-item-right">
+					<h3 class="title">Technology and Equipment Planning</h3>
+								<p class="description">
+									We assess your information technology and biomedical equipment needs and provide you with best resources to match market needs and wants
+								</p>
+                </div>
+              </div>
+
+
+
+					  <div class="col-md-12">
+                <div class="services-item services-item-left">
+					<h3 class="title">AJ Investments</h3>
+								<p class="description">
+									The main purpose of AJ-Healthcare is to connect people from different walks of life for better patient care. We are confident to provide you with successful business investment model in healthcare with guaranteed return on investment. Get ahead and invest with us as an expert or monetarily
+								</p>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- End services -->
+
+</div>
+
+
+
+
+
+
 
 	<!-- Start About us -->
 	<div id="about" class="about-box">
@@ -86,215 +274,77 @@
 	</div>
 	<!-- End About us -->
 
-	<!-- Start Services -->
-	<div id="services" class="services-box">
+	<!--mission vision -->
+	<div class="our-mission-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
-					<div class="title-box">
-						<h2>Services</h2>
-						<p>We strive to anticipate and meet the needs of our patients, physicians and co-workers </p>
-					</div>
+				<div class="col-md-6 col-sm-12">
+						<div class="mission-item mission-item-left">
+                  			<h3 class="title">OUR MISSION</h3>
+								<p class="description">
+									Build standard, sustainable, and affordable healthcare system that provides STEEEP (safe, timely, equitable, efficient, effective and person centered) healthcare to the people of Kashmir.
+								</p>
+                		</div>
+				</div>
+				<div class="col-md-6 col-sm-12">
+						<div class="mission-item mission-item-right">
+                  			<h3 class="title">OUR VISION</h3>
+								<p class="description">
+									To be the best healthcare system in the region.</p>
+						</div>
 				</div>
 			</div>
-
 			<div class="row">
-				<div class="col-lg-12">
-					<div class="owl-carousel owl-theme">
-						<div class="item">
-							<div class="serviceBox">
-								<div class="service-icon"><i class="fa fa-h-square" aria-hidden="true"></i></div>
-								<h3 class="title">Operations and Management Services</h3>
-								<p class="description">
-									Our team evaluates the current status of the hospital in terms of revenue, expenses, productivity, performance gaps, and business processes. Based on the findings we send our team not only to improve overall performance but also do the knowledge transfers
-								</p>
-								<a href="#" class="new-btn-d br-2">Read More</a>
+				<div class="col-md-12 col-md-12">
+						<div class="values-item mission-item-left">
+                  			<h3 class="title">OUR VALUES</h3>
+							<div class="row">
+								<div class="col-md-4">
+									<h3 class="title">Service</h3>
+									<p class="description">
+									We strive to anticipate and meet the needs of our patients, physicians and co-workers
+									</p>
+								</div>
+								<div class="col-md-4">
+									<h3 class="title">Innovation</h3>
+									<p class="description">
+										We embrace change and work to improve all we do in a fiscally responsible manner.									</p>
+								</div>
+								<div class="col-md-4">
+									<h3 class="title">Integrity</h3>
+									<p class="description">
+									We communicate openly and honestly, build trust and conduct ourselves according to the highest ethical standards
+									</p>
+								</div>
+							</div>
+
+
+							<div class="row">
+								<div class="col-md-4">
+									<h3 class="title">Respect</h3>
+									<p class="description">
+									We treat each individual, those we serve and those with whom we work, with the highest professionalism and dignity
+									</p>
+								</div>
+								<div class="col-md-4">
+									<h3 class="title">Patient First</h3>
+									<p class="description">
+										We strive to deliver the best care to every patient every day. The patient is the first priority in everything we do.									</p>
+								</div>
+								<div class="col-md-4">
+									<h3 class="title">Team Work</h3>
+									<p class="description">
+									System effectiveness is built on the collective strength and cultural diversity of everyone, working with open communication and mutual respect.
+									</p>
+								</div>
 							</div>
 						</div>
-						<div class="item">
-							<div class="serviceBox">
-								<div class="service-icon"><i class="fa fa-heart" aria-hidden="true"></i></div>
-								<h3 class="title">Healthcare Business Consulting</h3>
-								<p class="description">
-									We study your project from all the aspects and devise  strategies to maximize facility’s  operational  efficiency and profit margins. During our consultation  we don’t tell you what to do but show you how to achieve excellence
-								</p>
-								<a href="#" class="new-btn-d br-2">Read More</a>
-							</div>
-						</div>
-						<div class="item">
-							<div class="serviceBox">
-								<div class="service-icon"><i class="fa fa-hospital-o" aria-hidden="true"></i></div>
-								<h3 class="title">Hospital Planning</h3>
-								<p class="description">
-									From concept to operational management we commit to work hand in hand to develop a healthcare facility that fits all your needs. We support you at every level and complete the full cycle from feasibility, DPR & market intelligence, construction, MEP, man-power planning, commissioning, and operations
-								</p>
-								<a href="#" class="new-btn-d br-2">Read More</a>
-							</div>
-						</div>
-						<div class="item">
-							<div class="serviceBox">
-								<div class="service-icon"><i class="fa fa-stethoscope" aria-hidden="true"></i></div>
-								<h3 class="title">Design and Construction Management</h3>
-								<p class="description">
-									We believe in developing hospital designs, which help in the healing process keeping in view lean thinking with patient flow and infection control practices. We design and redesign healthcare spaces based on your ideas and international standards
-								</p>
-								<a href="#" class="new-btn-d br-2">Read More</a>
-							</div>
-						</div>
-						<div class="item">
-							<div class="serviceBox">
-								<div class="service-icon"><i class="fa fa-wheelchair" aria-hidden="true"></i></div>
-								<h3 class="title">Turn-key Projects</h3>
-								<p class="description">
-									AJ-Healthcare delivers your turnkey project on time, on budget, and meet all stakeholder expectations. Our experts all over the globe shall ensure that your new facility is both at the forefront of regional best practice and is proofed for future challenges, risks and considerations
-								</p>
-								<a href="#" class="new-btn-d br-2">Read More</a>
-							</div>
-						</div>
-						<div class="item">
-							<div class="serviceBox">
-								<div class="service-icon"><i class="fa fa-plus-square" aria-hidden="true"></i></div>
-								<h3 class="title">Technology and Equipment Planning</h3>
-								<p class="description">
-									We assess your information technology and biomedical equipment needs and provide you with best resources to match market needs and wants
-								</p>
-								<a href="#" class="new-btn-d br-2">Read More</a>
-							</div>
-						</div>
-						<div class="item">
-							<div class="serviceBox">
-								<div class="service-icon"><i class="fa fa-user-md" aria-hidden="true"></i></div>
-								<h3 class="title">AJ Investments</h3>
-								<p class="description">
-									The main purpose of AJ-Healthcare is to connect people from different walks of life for better patient care. We are confident to provide you with successful business investment model in healthcare with guaranteed return on investment. Get ahead and invest with us as an expert or monetarily
-								</p>
-								<a href="#" class="new-btn-d br-2">Read More</a>
-							</div>
-						</div>
-						<!--<div class="item">-->
-							<!--<div class="serviceBox">-->
-								<!--<div class="service-icon"><i class="fa fa-ambulance" aria-hidden="true"></i></div>-->
-								<!--<h3 class="title">Lorem ipsum dolor</h3>-->
-								<!--<p class="description">-->
-									<!--Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium consequuntur.-->
-								<!--</p>-->
-								<!--<a href="#" class="new-btn-d br-2">Read More</a>-->
-							<!--</div>-->
-						<!--</div>-->
-					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- End Services -->
 
-	<!-- Start Appointment -->
-	<div id="appointment" class="appointment-main">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="title-box">
-						<h2>Appointment</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-6 col-md-6">
-					<div class="well-block">
-                        <div class="well-title">
-                            <h2>Book an Appointment</h2>
-                        </div>
-                        <form>
-                            <!-- Form start -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label" for="name">Name</label>
-                                        <input id="name" name="name" type="text" placeholder="Name" class="form-control input-md">
-                                    </div>
-                                </div>
-                                <!-- Text input-->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label" for="email">Email</label>
-                                        <input id="email" name="email" type="text" placeholder="E-Mail" class="form-control input-md">
-                                    </div>
-                                </div>
-                                <!-- Text input-->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label" for="date">Preferred Date</label>
-                                        <input id="date" name="date" type="text" placeholder="Preferred Date" class="form-control input-md">
-                                    </div>
-                                </div>
-                                <!-- Select Basic -->
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="control-label" for="time">Preferred Time</label>
-                                        <select id="time" name="time" class="form-control">
-                                            <option value="8:00 to 9:00">8:00 to 9:00</option>
-                                            <option value="9:00 to 10:00">9:00 to 10:00</option>
-                                            <option value="10:00 to 1:00">10:00 to 1:00</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!-- Select Basic -->
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label class="control-label" for="appointmentfor">Department</label>
-                                        <select id="appointmentfor" name="appointmentfor" class="form-control">
-                                            <option value="Choose Department">Choose Department</option>
-											<option value="Gynacology">Gynacology</option>
-											<option value="Dermatologist">Dermatologist</option>
-											<option value="Orthology">Orthology</option>
-											<option value="Anesthesiology">Anesthesiology</option>
-											<option value="Ayurvedic">Ayurvedic</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <!-- Button -->
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <button id="singlebutton" name="singlebutton" class="new-btn-d br-2">Make An Appointment</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                        <!-- form end -->
-                    </div>
-				</div>
-				<div class="col-lg-6 col-md-6">
-					<div class="well-block">
-                        <div class="well-title">
-                            <h2>Why Appointment with Us</h2>
-                        </div>
-                        <div class="feature-block">
-                            <div class="feature feature-blurb-text">
-                                <h4 class="feature-title">24/7 Hours Available</h4>
-                                <div class="feature-content">
-                                    <p>Integer nec nisi sed mi hendrerit mattis. Vestibulum mi nunc, ultricies quis vehicula et, iaculis in magnestibulum.</p>
-                                </div>
-                            </div>
-                            <div class="feature feature-blurb-text">
-                                <h4 class="feature-title">Experienced Staff Available</h4>
-                                <div class="feature-content">
-                                    <p>Aliquam sit amet mi eu libero fermentum bibendum pulvinar a turpis. Vestibulum quis feugiat risus. </p>
-                                </div>
-                            </div>
-                            <div class="feature feature-blurb-text">
-                                <h4 class="feature-title">Low Price & Fees</h4>
-                                <div class="feature-content">
-                                    <p>Praesent eu sollicitudin nunc. Cras malesuada vel nisi consequat pretium. Integer auctor elementum nulla suscipit in.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End Appointment -->
+
 
 	<!-- Start Gallery -->
 	<div id="gallery" class="gallery-box">
@@ -311,32 +361,32 @@
 			<div class="popup-gallery row clearfix">
 				<div class="col-md-3 col-sm-6">
 					<div class="box-gallery">
-						<img src="{% static 'healthapp/images/gallery-01.jpg' %}" alt="">
+						<img src="{% static 'healthapp/images/g1.jpg' %}" alt="">
 						<div class="box-content">
 							<h3 class="title">Lorem ipsum dolor</h3>
 							<ul class="icon">
-								<li><a href="{% static 'healthapp/images/gallery-01.jpg' %}"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+								<li><a href="{% static 'healthapp/images/g1.jpg' %}"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
 					<div class="box-gallery">
-						<img src="{% static 'healthapp/images/gallery-02.jpg' %}" alt="">
+						<img src="{% static 'healthapp/images/g2.jpeg' %}" alt="">
 						<div class="box-content">
 							<h3 class="title">Lorem ipsum dolor</h3>
 							<ul class="icon">
-								<li><a href="{% static 'healthapp/images/gallery-02.jpg' %}"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+								<li><a href="{% static 'healthapp/images/g2.jpeg' %}"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6">
 					<div class="box-gallery">
-						<img src="{% static 'healthapp/images/gallery-03.jpg' %}" alt="">
+						<img src="{% static 'healthapp/images/g3.jpeg' %}" alt="">
 						<div class="box-content">
 							<ul class="icon">
-								<li><a href="{% static 'healthapp/images/gallery-03.jpg' %}"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+								<li><a href="{% static 'healthapp/images/g3.jpeg' %}"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -404,59 +454,110 @@
 	<!-- Start Team -->
 	<div id="team" class="team-box">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="title-box">
+			<div class="title-box">
 						<h2>KNOW YOUR TEAM</h2>
 						<p>Our Experts Know Healthcare </p>
 					</div>
-				</div>
-			</div>
-
 			<div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="our-team">
-                        <div class="pic">
-                            <img src="{% static 'healthapp/images/bilal.png' %}" alt="">
-                        </div>
 
+				<div class="col-lg-4 col-sm-10">
+					<div class="hover panel">
+						<div class="front">
+							<div class="pad">
+								<img src="{% static 'healthapp/images/bilal.png' %}" alt="">
+							</div>
+						</div>
+						<div class="box-content">
+							<ul class="icon">
+								<li><a><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+						<div class="back">
+							<div class="pad">
+								<h3 class="title">Dr.Bilal Ahmad Bhat</h3>
+								<span class="post">Dr. Bilal Bhatt started his career in healthcare when he entered the medical school back in 1997 with a dream to provide the optimum level of healthcare to the people.
+									He worked in different hospitals and in different specialties both in India and United States.
+									Dr. Bilal Bhatt can successfully manage projects and build relationships that deliver significant and tangible results.
+									His international experience includes South-East Asia, North America, and the Middle East.
+									And with 15 plus years of experience in different domains of healthcare, Dr. Bilal Bhatt is ready to enter the Healthcare market in Kashmir.
+								</span>
+							</div>
+						</div>
 
+					</div>
 
+				</div>
 
-                        <div class="team-content">
-                            <h3 class="title">Dr.Bilal Ahmad Bhat</h3>
-                            <span class="post">Dr. Bilal Bhatt started his career in healthcare when he entered the medical school back in 1997 with a dream to provide the optimum level of healthcare to the people.
-								He worked in different hospitals and in different specialties both in India and United States.
-								Dr. Bilal Bhatt can successfully manage projects and build relationships that deliver significant and tangible results.
-								His international experience includes South-East Asia, North America, and the Middle East.
-								And with 15 plus years of experience in different domains of healthcare, Dr. Bilal Bhatt is ready to enter the Healthcare market in Kashmir.
-							</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="our-team">
-                        <div class="pic">
-                            <img src="{% static 'healthapp/images/doc2.png' %}" alt="">
-                        </div>
-                        <div class="team-content">
-                            <h3 class="title">Dr.Khalid Khuroo</h3>
+				<div class="col-lg-4 col-sm-10">
+					<div class="hover panel">
+						<div class="front">
+							<div class="pad">
+								<img src="{% static 'healthapp/images/doc2.png' %}" alt="">
+							</div>
+						</div>
+						<div class="back">
+							<div class="pad">
+								<h3 class="title">Dr.Khalid Khuroo</h3>
                             <span class="post">Khalid is a result-oriented, enthusiastic, & passionate professional with more than 15 years of healthcare management experience.He is certified healthcare informatics specialist & Six sigma green belt. Administration, project management, planning & organizing are few of his core competencies.
 								He has participated in JCI accreditation survey in different hospitals.
 								He has worked with various multinational organizations like,
 								Dr.Sulaiman Habib Medical Group – KSA,Hamad Medical Corporation – Qatar, and Unison Capital Investment LLC(healthcare) public private partnered with Ministry of Health and Prevention(MOHAP) – UAE</span>
-                        </div>
-                    </div>
-                </div>
+							</div>
+						</div>
 
-                <div class="col-md-4 col-sm-6">
-                    <div class="our-team">
-                        <div class="pic">
-                            <img src="{% static 'healthapp/images/doc3.png' %}" alt="">
-                        </div>
-                        <div class="team-content">
-                            <h3 class="title">Mr. Ibrahim Dar</h3>
+						<div class="box-content">
+							<ul class="icon">
+								<li><a><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+
+					</div>
+
+				</div>
+
+
+				<div class="col-lg-4 col-sm-10">
+					<div class="hover panel">
+						<div class="front">
+							<div class="pad">
+								<img src="{% static 'healthapp/images/doc4.png' %}" alt="">
+							</div>
+						</div>
+						<div class="back">
+							<div class="pad">
+								<h3 class="title">Dr Sayed Riyaz</h3>
+                            <span class="post">
+								Dr Riyaz is Healthcare industry professional with more than 30 years experience as a Physician and Healthcare Management Expert. He has MBBS, Pg.Dip HHM, Pg.Dip Diabetes Medicine (UK) and MSc in Diabetes & Metabolism(UK). He is ACHSI surveyor for Healthcare accreditation . He has worked closely with Netcare and JCI in accreditation process and commissioned Emergency Medical Services of various hospitals.  He is Director IMI Middle East.
+							</span>
+							</div>
+						</div>
+						<div class="box-content">
+							<ul class="icon">
+								<li><a><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+
+
+
+			</div>
+
+
+			<div class="row">
+				<div class="col-md-2 col-sm-0"></div>
+				<div class="col-lg-4 col-sm-10">
+					<div class="hover panel">
+						<div class="front">
+							<div class="pad">
+								<img src="{% static 'healthapp/images/doc3.png' %}" alt="">
+							</div>
+						</div>
+						<div class="back">
+							<div class="pad">
+								<h3 class="title">Mr. Ibrahim Dar</h3>
                             <span class="post">Mr. Ibrahim is graduate in pharmaceutical science and MBA in marketing.
 
 								He is a member of American Pharmaceutical association and has over 25 years of extensive experience in multi-site pharmacy management.
@@ -464,45 +565,45 @@
 								He can lead the teams to set up pharmacies from scratch with seamless staff management and training.
 								Ibrahim has developed robust expertise in warehousing, procurement, inventory and supplier management, loss prevention, budgeting, handling customer grievance and customer service.
 								He has proven track record of developing & implementing growth strategies with positive EBITDA.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+							</div>
+						</div>
+						<div class="box-content">
+							<ul class="icon">
+								<li><a><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
 
-			<br>
+				</div>
 
-			<div class="row">
-				<div class="col-md-2 col-sm-6"></div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="our-team">
-                        <div class="pic">
-                            <img src="{% static 'healthapp/images/doc5.png' %}" alt="">
-                        </div>
-                        <div class="team-content">
-                            <h3 class="title">Dr.Raj Suhail</h3>
-                            <span class="post">Co-Founder & Managing Partner
-							</span>
-
-                        </div>
-                    </div>
-                </div>
+				<div class="col-lg-4 col-sm-10">
+					<div class="hover panel">
+						<div class="front">
+							<div class="pad">
+								<img src="{% static 'healthapp/images/raj.png' %}" alt="">
+							</div>
+						</div>
+						<div class="back">
+							<div class="pad">
+								<h3 class="title">Dr.Raj Suhail</h3>
+								<span class="post">Co-Founder & Managing Partner</span>
+							</div>
+						</div>
 
 
-                <div class="col-md-4 col-sm-6">
-                    <div class="our-team">
-                        <div class="pic">
-                            <img src="{% static 'healthapp/images/doc4.png' %}" alt="">
-                        </div>
-                        <div class="team-content">
-                            <h3 class="title">Dr Sayed Riyaz</h3>
-                            <span class="post">
-								Dr Riyaz is Healthcare industry professional with more than 30 years experience as a Physician and Healthcare Management Expert. He has MBBS, Pg.Dip HHM, Pg.Dip Diabetes Medicine (UK) and MSc in Diabetes & Metabolism(UK). He is ACHSI surveyor for Healthcare accreditation . He has worked closely with Netcare and JCI in accreditation process and commissioned Emergency Medical Services of various hospitals.  He is Director IMI Middle East.
-							</span>
+						<div class="box-content">
+							<ul class="icon">
+								<li><a><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+					</div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
+				</div>
+
+
+			</div>
+
+
 
 
 		</div>
@@ -510,61 +611,59 @@
 
 	<!-- End Team -->
 
-	<!-- Start Blog -->
-	<div id="blog" class="blog-box">
+	<!--Start Facilities -->
+	<div class="facilities-section">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12">
-					<div class="title-box">
-						<h2>we are bringing the change</h2>
-						<p>Your Journey to better healthcare starts here </p>
-					</div>
+				<div class="col-md-6">
+						<div class="facilities-item">
+                  			<h3 class="title">
+									40-bedded upcoming hospital
+							</h3>
+								<p class="description">
+									AJ Healthcare is going to start state of art healthcare facility in compliance with robust clinical and business processes while following NABH and international standards.
+								</p>
+                		</div>
+				</div>
+				<div class="col-md-6">
+						<div class="facilities-item">
+                  			<h3 class="title">Lifecare Medical Centre</h3>
+								<p class="description">
+									We already have humble start with small polyclinic and pharmacy running in Hazratbal area providing primary healthcare services to people in surrounding area of Hazratbal</p>
+						</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="blog-inner">
-						<div class="blog-img">
-							<img class="img-fluid" src="{% static 'healthapp/images/blog-img-01.jpg' %}" alt="" />
-						</div>
-						<h2>40-bedded upcoming hospital</h2>
-						<p>
-							AJ Healthcare is going to start state of art healthcare facility in compliance with robust clinical and business processes while following NABH and international standards
-						</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="blog-inner">
-						<div class="blog-img">
-							<img class="img-fluid" src="{% static 'healthapp/images/blog-img-02.jpg' %}" alt="" />
-						</div>
-						<h2>Lifecare Medical Centre </h2>
-						<p>We already have humble start with small polyclinic and pharmacy running in Hazratbal area providing primary healthcare services to people in surrounding area of Hazratbal </p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="blog-inner">
-						<div class="blog-img">
-							<img class="img-fluid" src="{% static 'healthapp/images/blog-img-03.jpg' %}" alt="" />
-						</div>
 
-						<h2>MindSPA by Isha Malik </h2>
-						<p>Keeping in mind the rising mental ailments in Kashmir, renowned physiologist Ms. Isha Malik has started the Psychology clinic under the banner of AJ Healthcare </p>
-					</div>
+			<div class="row">
+				<div class="col-md-6">
+						<div class="facilities-item">
+                  			<h3 class="title">MindSPA by Isha Malik</h3>
+								<p class="description">
+									Keeping in mind the rising mental ailments in Kashmir, renowned physiologist Ms. Isha Malik has started the Psychology clinic under the banner of AJ Healthcare
+								</p>
+                		</div>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="blog-inner">
-						<div class="blog-img">
-							<img class="img-fluid" src="{% static 'healthapp/images/blog-img-01.jpg' %}" alt="" />
+				<div class="col-md-6">
+						<div class="facilities-item">
+                  			<h3 class="title">Kashmir's First Online Pharmacy</h3>
+								<p class="description">
+									Our medication compliance officer visits the patient home delivers a monthly medication along with patient education and checks the vitals while holding patient accountable</p>
 						</div>
-						<h2>Kashmir's First Online Pharmacy </h2>
-						<p>Our medication compliance officer visits the patient home delivers a monthly medication along with patient education and checks the vitals while holding patient accountable </p>
-					</div>
 				</div>
 			</div>
+
 		</div>
 	</div>
-	<!-- End Blog -->
+<!-- End Facilities -->
+
+
+
+
+
+
+
+
+
 
 	<!-- Start Contact -->
 	<div id="contact" class="contact-box">
@@ -572,8 +671,8 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="title-box">
-						<h2>Contact us</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+						<h2>GET IN TOUCH</h2>
+						<p>Contact us for any queries. </p>
 					</div>
 				</div>
 			</div>
@@ -626,8 +725,9 @@
 								<i class="fa fa-location-arrow" aria-hidden="true"></i>
 							</div>
 							<div class="media-body dit-right">
+
 								<h4>Address</h4>
-								<p>Fleming 196 Woodside Circle Mobile, FL 36602</p>
+								<p>Okhla, New Delhi South, 110025</p>
 							</div>
 						</div>
 						<div class="media cont-line">
@@ -636,8 +736,7 @@
 							</div>
 							<div class="media-body dit-right">
 								<h4>Email</h4>
-								<a href="#">demoinfo@gmail.com</a><br>
-								<a href="#">demoinfo@gmail.com</a>
+								<a href="#">info@aj-healthcare.com</a><br>
 							</div>
 						</div>
 						<div class="media cont-line">
@@ -646,8 +745,7 @@
 							</div>
 							<div class="media-body dit-right">
 								<h4>Phone Number</h4>
-								<a href="#">12345 67890</a><br>
-								<a href="#">12345 67890</a>
+								<a href="#">+917051239885 </a><br>
 							</div>
 						</div>
 					</div>
@@ -659,28 +757,4 @@
 	</div>
 	<!-- End Contact -->
 
-	<!-- Start Subscribe -->
-	<div class="subscribe-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="subscribe-inner text-center clearfix">
-						<h2>Subscribe</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-						<form action="#" method="post">
-							<div class="form-group">
-								<input class="form-control-1" id="email-1" name="email" placeholder="Email Address" required="" type="text">
-							</div>
-							<div class="form-group">
-								<button type="submit" class="new-btn-d br-2">
-									Subscribe
-								</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End Subscribe -->
 {% endblock %}

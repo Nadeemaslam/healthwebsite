@@ -14,18 +14,18 @@
 	/* ..............................................
     Navbar Bar
     ................................................. */
-	
+
 	$('.navbar-nav .nav-link').on('click', function() {
 		var toggle = $('.navbar-toggler').is(':visible');
 		if (toggle) {
 			$('.navbar-collapse').collapse('hide');
 		}
 	});
-	
+
 	/* ..............................................
     Fixed Menu
     ................................................. */
-    
+
 	$(window).on('scroll', function () {
 		if ($(window).scrollTop() > 50) {
 			$('.top-header').addClass('fixed-menu');

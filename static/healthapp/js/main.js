@@ -166,3 +166,68 @@
     });
 
 })(jQuery, window, document);
+
+
+
+
+
+
+$(document).ready(function () {
+    $('.hover').click(function () {
+        $(this).toggleClass('flip');
+    });
+});
+
+
+$(window).scroll(function(){
+    if ($(this).scrollTop() > 50) {
+
+
+    }
+});
+
+
+var services = document.querySelector('.services-item-left');
+var mission = document.querySelector('.mission-item-left');
+window.addEventListener('scroll', function (event) {
+
+            // Get it's position in the viewport
+            var bounding = services.getBoundingClientRect();
+
+            // Log the results
+            // console.log(bounding);
+
+            if (
+                    bounding.top >= -1200 &&
+                    bounding.left >= -1200 &&
+                    bounding.right <= (window.innerWidth || document.documentElement.clientWidth) &&
+                    bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+                ) {
+                    console.log('In the viewport!');
+                    $(".services-item-left").addClass("extend-left");
+                    $(".services-item-right").addClass("extend-right");
+                } else {
+                    //console.log('Not in the viewport... whomp whomp');
+                }
+
+
+             var bounding = mission.getBoundingClientRect();
+
+            // Log the results
+            console.log(bounding);
+
+            if (
+                    bounding.top >= -500 &&
+                    bounding.left >= -500 &&
+                    bounding.right <= (window.innerWidth || document.documentElement.clientWidth) &&
+                    bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+                ) {
+                    console.log('misssin In the viewport!');
+                    $(".mission-item-left").addClass("mission-left");
+                    $(".mission-item-right").addClass("mission-right");
+                } else {
+                    console.log('missionnnnnnn Not in the viewport... whomp whomp');
+                }
+});
+
+

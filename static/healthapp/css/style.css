@@ -38,45 +38,8 @@ a {
     transition: all .3s ease-in-out;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    letter-spacing: 0;
-    font-weight: normal;
-    position: relative;
-    padding: 0 0 10px 0;
-    font-weight: normal;
-    line-height: 120% !important;
-    color: #1f1f1f;
-    margin: 0
-}
 
-h1 {
-    font-size: 24px
-}
 
-h2 {
-    font-size: 22px
-}
-
-h3 {
-    font-size: 18px
-}
-
-h4 {
-    font-size: 16px
-}
-
-h5 {
-    font-size: 14px
-}
-
-h6 {
-    font-size: 13px
-}
 
 h1 a,
 h2 a,
@@ -316,7 +279,7 @@ button:focus{
 }
 
 .top-header{
-	background: #ffffff;
+	background: transparent;
 	position: relative;
 	top: 0px;
 	left: 0px;
@@ -331,12 +294,14 @@ button:focus{
 	padding: 10px 15px;
 	position: relative;
 	font-weight: 500;
+	color: #ffffff;
+
 }
 
 
 
 .top-header .navbar .navbar-collapse ul li a.active{
-	background: #00cb86;
+	background: #f0bc09;
 	color: #ffffff;
 	-webkit-transition: all 0.5s ease-in-out 0s;
 	-moz-transition: all 0.5s ease-in-out 0s;
@@ -369,7 +334,7 @@ button:focus{
 	transition: all 0.5s ease-in-out 0s;
 }
 .top-header .navbar .navbar-collapse ul li a:hover{
-	background: #00cb86;
+	background: #f0bc09;
 	color: #ffffff;
 }
 
@@ -384,7 +349,7 @@ button:focus{
 	animation-fill-mode: both;
 	-webkit-animation-name: fadeInDown;
 	animation-name: fadeInDown;
-	background: #fff;
+	background: transparent;
 	z-index: 20;
 }
 
@@ -451,17 +416,18 @@ button:focus{
 }
 
 .lbox-details {
-    display: table-cell;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
     vertical-align: middle;
 	position: absolute;
 	top: 0px;
 	left: 0;
 	right: 0;
 	height: 100%;
-	padding: 22% 0%;
+	padding: 2% 10%;
 }
-
+.lbox-details div { margin:10px;}
 .lbox-details::before{
 	content: "";
 	background: rgba(0,0,0,0.5);
@@ -480,10 +446,19 @@ button:focus{
 	font-weight: 600;
 	position: relative;
 	z-index: 3;
+	padding-top:20px;
+}
+
+.features-list li{
+    font-size: 34px;
+    color:#ffffff !important;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 600;
+    list-style:none;
 }
 
 .lbox-details h2{
-	font-size: 48px;
+	font-size: 26px;
 	color: #ffffff;
 	font-weight: 300;
 	position: relative;
@@ -871,62 +846,6 @@ button:focus{
 	color: #ffffff;
 }
 
-/*------------------------------------------------------------------
-    Appointment
--------------------------------------------------------------------*/
-
-.appointment-main{
-	padding: 70px 0px;
-	position: relative;
-}
-
-.well-block{}
-.well-block .well-title h2{
-	font-size: 32px;
-	font-weight: 600;
-	padding-bottom: 20px;
-}
-
-.well-block form .form-group .control-label{
-	font-size: 16px;
-}
-.well-block form .form-group .form-control {
-	min-height: 60px;
-	min-height: 50px;
-	padding: 0px 15px;
-	border-radius: 0;
-	color: #12557f;
-	border: 1px solid #12557f;
-}
-.well-block form .form-group .form-control:focus{
-	box-shadow: none;
-}
-
-.well-block form .form-group button{
-	border-radius: 2px;
-	transition: .2s;
-	letter-spacing: 1px;
-	padding: 10px 18px;
-	background: #ffffff;
-	color: #12557f;
-	display: inline-block;
-	line-height: 24px;
-	cursor: pointer;
-}
-.well-block form .form-group button.new-btn-d.br-2 {
-    border: 2px solid #12557f;
-}
-.well-block form .form-group button.new-btn-d::before {
-    background: rgba(18,85,127,0.2);
-}
-
-.feature-block .feature-title{
-	font-size: 20px;
-}
-
-.well-block form .form-group button:hover{
-	color: #ffffff;
-}
 
 
 /*------------------------------------------------------------------
@@ -1277,7 +1196,7 @@ button:focus{
 	font-size: 40px;
 	border: 2px dotted #12557f;
 	margin-right: 10px;
-	color: #00cb86;
+	color: #f0bc09;
 	border-radius: 50%;
 }
 
@@ -1305,19 +1224,26 @@ button:focus{
 .contact-block{}
 
 .contact-block .form-group .form-control{
-	background: #00cb86;
+
+    font-family: Roboto,sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 2.2px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #111;
+
+	background: #f2f2f2;
 	height: 45px;
-	font-size: 16px;
 	border: 0;
-	color: #ffffff;
 	padding: 6px 15px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-o-border-radius: 4px;
-	-ms-border-radius: 4px;
-	border-radius: 4px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	-ms-border-radius: 0px;
+	border-radius: 0px;
 }
 
 .contact-block .form-group textarea.form-control{
@@ -1326,7 +1252,7 @@ button:focus{
 }
 
 .submit-button .btn-common{
-	background-color: #00cb86;
+	background-color: #f0bc09 ;
 	height: 45px;
 	line-height: 45px;
 	font-size: 16px;
@@ -1344,7 +1270,7 @@ button:focus{
 	transition: all 0.3s;
 }
 .submit-button .btn-common:hover{
-	background-color: #528780;
+	background-color: #00cb86;
 }
 
 .custom-select{
@@ -1449,16 +1375,445 @@ select.form-control:not([size]):not([multiple]){
 }
 
 
+.parallax-section{
+  background-image: url(/static/healthapp/images/banner.jpeg);
+
+  min-height: 200vh;
+
+  /* Create the parallax scrolling effect */
+
+
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner-section {
+    text-align:left;
+    padding:40px 0 90px 80px;
+    color:#ffffff;
+}
+.banner-section span{
+    font-size:54px !important;
+    font-weight:bold;
+}
+.banner-section p{
+    font-size:24px !important;
+    font-weight:300;
+}
+.services{
+    background-color: rgba(15,89,121,0.8);
+    position:relative;
+}
+.services-item-left {
+
+    text-align: center;
+    background-color: rgba(34,102,141,0.8);
+    padding: 25px 30px 35px 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height:45vh;
+    width: 100%;
+    margin-left:-100%;
+
+}
+
+.extend-left {
+    margin-left:0px;
+    transition:margin-left 2s ease-in-out 0s;
+}
+
+.services-item-right {
+    text-align: center;
+    background-color: rgba(34,102,141,0.8);
+    padding: 25px 30px 35px 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height:45vh;
+    width: 100%;
+    right:-100%;
+    position:absolute;
+
+}
+.extend-right {
+    right:0%;
+    transition:right 2s ease-in-out 0s;
+    }
+
+
+.facilities-section{
+  background-image:url(/static/healthapp/images/bedded.jpg);
+  min-height: 105vh;
+
+  /* Create the parallax scrolling effect */
+
+
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.facilities-item {
+    text-align: center;
+    background-color: rgba(85,86,87,0.8);
+    padding: 25px 30px 35px 30px;
+    margin: 40px 0px 15px 0;
+    height:40vh;
+
+
+}
+
+
+
+.services-item  h3, .facilities-item h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0.5px;
+
+}
+.services-item p, .facilities-item p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
+.services-heading {
+    padding:20px 0;
+    text-align:center;
+    color:#ffffff !important;
+}
+
+
+.services-heading h1{
+        font-size:54px;
+        font-weight:700px !important;
+
+}
+
+
+.button-flex {
+    padding:20px 10px;
+}
+
+.button-flex a{
+      background-color: #f0bc09; /* yellow shade */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+}
+
+.mission-item {
+    text-align: center;
+    background-color: rgba(161,148,121,0.8);
+    padding: 35px 30px 35px 30px;
+    height:35vh;
+
+}
+.mission-item-left {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left:-100%;
+
+}
+
+.mission-left {
+    margin-left:0%;
+    transition:margin-left 2s ease-in-out 0s;
+    }
+
+.mission-item-right {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    right:-100%;
+    position:absolute;
+
+}
+.mission-right {
+    right:0%;
+    transition:right 2s ease-in-out 0s;
+    }
 
 
 
 
 
 
+.values-item {
+    text-align: center;
+    background-color: rgba(161,148,121,0.8);
+    padding: 25px 30px 35px 30px;
+    height:58vh;
+
+}
+
+
+.mission-item h3, .values-item h3{
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 0.5px;
+
+}
+.mission-item p, .values-item p{
+    font-size: 15px;
+    font-weight: 300;
+    color: #000;
+    letter-spacing: 0.5px;
+}
 
 
 
 
+.our-mission-section{
+  background-image:url(/static/healthapp/images/mission.jpg);
+  min-height: 115vh;
+
+  /* Create the parallax scrolling effect */
+
+
+  background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+}
+
+
+
+
+/* Team Section*/
+.panel {
+    margin: 20px auto;
+    width: 100%;
+    height: 390px;
+    position: relative;
+    font-size: .8em;
+    -webkit-perspective: 600px;
+    -moz-perspective: 600px;
+}
+/* -- make sure to declare a default for every property that you want animated -- */
+
+/* -- general styles, including Y axis rotation -- */
+ .panel .front {
+    position: absolute;
+    top: 0;
+    z-index: 900;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform-style: preserve-3d;
+    -moz-backface-visibility: hidden;
+    /* -- transition is the magic sauce for animation -- */
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.panel.flip .front {
+    z-index: 900;
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+.panel .back {
+    position: absolute;
+    top: 0;
+    z-index: 800;
+    width: inherit;
+    height: inherit;
+    -webkit-transform: rotateY(-180deg);
+    -webkit-transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-transform: rotateY(-180deg);
+    -moz-transform-style: preserve-3d;
+    -moz-backface-visibility: hidden;
+    /* -- transition is the magic sauce for animation -- */
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.panel.flip .back {
+    z-index: 9999;
+    -webkit-transform: rotateX(0deg) rotateY(0deg);
+    -moz-transform: rotateX(0deg) rotateY(0deg);
+    padding:30px;
+}
+
+.front {
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 1px #000;
+}
+
+.front:hover {
+  bottom: 1px;
+  left: 2px;
+  box-shadow: 0px 0px 10px 1px #000;
+}
+
+.back {
+  border: 1px solid black;
+}
+
+.back:hover {
+  bottom: 2px;
+  right: 2px;
+  box-shadow: 0px 0px 10px 1px #000;
+}
+
+
+
+.panel:hover .icon{
+    bottom: 32%;
+    opacity: 1;
+}
+
+
+.panel .icon li{
+    display: inline-block;
+}
+.panel .icon li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: #000;
+    border: 2px solid #f0bc09;
+    margin-right: 5px;
+    padding:5px 14px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.panel .icon li a:hover{
+    background: #00cb86;
+    color: #fff;
+}
+
+
+.panel .icon {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    position: absolute;
+    opacity: 0;
+    left:40%;
+    top:83%;
+    transition-duration: 0.6s;
+    transition-timing-function: cubic-bezier(1, -0.53, 0.405, 1.425);
+    transition-delay: 0.1s;
+}
+
+
+.panel .box-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease 0s;
+    z-index:1000;
+}
+.panel:hover .box-content{
+    background-color: rgba(255, 242, 242, 0.8);
+}
+.panel .box-content:before,
+.panel .box-content:after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    opacity: 0;
+    transform: scale(1.5);
+    transition: all 0.6s ease 0.3s;
+}
+.panel .box-content:before{
+    border-left: 2px solid #00cb86;
+    border-top: 2px solid #00cb86;
+    top: 19px;
+    left: 19px;
+}
+.panel .box-content:after{
+    border-bottom: 2px solid #00cb86;
+    border-right: 2px solid #00cb86;
+    bottom: 19px;
+    right: 19px;
+}
+.panel:hover .box-content:before,
+.panel:hover .box-content:after{
+    opacity: 1;
+    transform: scale(1);
+}
+
+  /* For mobile phones: */
+@media only screen and (max-width: 768px) {
+
+    .button-flex a {
+        margin-bottom:10px;
+
+    }
+
+    .banner-section {
+    padding-left:15px;
+    text-align:center;
+    }
+
+    .banner-section span {
+    font-size: 45px !important;}
+
+   .pogoSlider-nav {
+    bottom: 202px;
+        }
+
+
+        .about-m ul#banner {
+            height:255px;
+        }
+        .mission-item {
+        height:50vh;}
+
+        .mission-item-right {
+                position:unset;
+                }
+
+
+        .services-item-right {
+            position:unset;
+        }
+
+        .services-item-left {
+        height:100vh;}
+
+        .services-item-right {
+            height:100vh;
+        }
+
+        .values-item {
+            height:215vh;
+        }
+
+
+        .facilities-item {
+            height:89vh;
+            }
+}
 
 
 
