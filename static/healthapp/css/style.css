@@ -1429,7 +1429,7 @@ select.form-control:not([size]):not([multiple]){
 
 
 .parallax-section{
-  background-image: url(/static/healthapp/images/bg12.png);
+  background-image: url(/static/healthapp/images/coverbanner.png);
 
   min-height: 200vh;
 
@@ -1898,7 +1898,10 @@ select.form-control:not([size]):not([multiple]){
 
 
 
-.facility-item { transition: all .2s ease-in-out; }
+.facility-item {
+    transition: all .2s ease-in-out;
+    margin-bottom:30px;
+ }
 .facility-item:hover {
       transform: scale(1.06);
 
