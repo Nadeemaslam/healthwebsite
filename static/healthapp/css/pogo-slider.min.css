@@ -6,7 +6,7 @@
 .pogoSlider {
 	width: 100%;
 	height: 0;
-	padding-bottom: 15% !important;
+	padding-bottom: 10% !important;
 	position: relative;
 	overflow: hidden
 }
@@ -33,7 +33,8 @@
 	opacity: 0;
 	-webkit-perspective: 1300px;
 	perspective: 1300px;
-	overflow: hidden
+	overflow: hidden;
+	background:#000000;
 }
 
 .pogoSlider-loading {
@@ -71,7 +72,7 @@
 .pogoSlider-progressBar {
 	position: absolute;
 	width: 100%;
-	height: 5px;
+	height: 3px;
 	top: 0;
 	left: 0;
 	background: #fff;
@@ -180,7 +181,7 @@
 }
 
 .pogoSlider-nav {
-	position: absolute;
+	position: unset;
 	padding: 0;
 	margin: 0;
 	z-index: 10
@@ -231,12 +232,11 @@
 }
 
 .pogoSlider-nav-btn {
-	background: #ccc;
-	background: rgba(255, 255, 255, .5);
+	background: #000;
 	border: none;
 	border-radius: 10px;
-	width: 40px;
-	height: 10px;
+	width: 0px;
+	height: 0px;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
 	cursor: pointer
 }

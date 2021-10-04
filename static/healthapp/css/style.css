@@ -24,7 +24,9 @@ body {
     font-size: 15px;
     font-family: 'Catamaran', sans-serif;
     line-height: 1.80857;
+    overflow-x:hidden !important;
 }
+
 
 
 a {
@@ -349,8 +351,12 @@ button:focus{
 	animation-fill-mode: both;
 	-webkit-animation-name: fadeInDown;
 	animation-name: fadeInDown;
-	background: transparent;
+	background: #ffffff;
 	z-index: 20;
+}
+
+.fixed-menu li a{
+    color:#000000 !important
 }
 
 .navbar-toggler{
@@ -389,6 +395,42 @@ button:focus{
 .navbar-toggler:hover span{
 	background: #00cb86;
 }
+
+
+ ul li {
+            display: block;
+            position: relative;
+            line-height: 21px;
+            text-align: left;
+        }
+
+        .dropdown li a {
+            display: block;
+            padding: 8px 25px !important;
+            color: #333;
+            text-decoration: none;
+            border-bottom:1px solid black !important;
+        }
+
+        ul li a:hover {
+            color: #fff;
+            background: #939393;
+        }
+
+        ul li ul.dropdown {
+            min-width: 100%;
+            /* Set width of the dropdown */
+            background: #2578be91;
+            display: none;
+            position: absolute;
+            z-index: 999;
+            left: 0;
+        }
+
+        ul li:hover ul.dropdown {
+            display: block;
+            /* Display the dropdown */
+        }
 
 
 /*------------------------------------------------------------------
@@ -440,13 +482,13 @@ button:focus{
 }
 
 .lbox-details h1{
-	font-size: 54px;
+	font-size: 32px;
 	font-family: 'Catamaran', sans-serif;
 	color: #ffffff;
 	font-weight: 600;
 	position: relative;
 	z-index: 3;
-	padding-top:20px;
+	padding-top:15px;
 }
 
 .features-list li{
@@ -542,6 +584,14 @@ button:focus{
 	padding-bottom: 30px;
 	margin-bottom: 15px;
 }
+
+.title-box p{
+	font-size: 20px;
+	font-family: 'Catamaran', sans-serif;
+	color: #222222;
+	font-weight: 500;}
+
+
 
 .title-box h2::after{
 	content: "";
@@ -713,7 +763,6 @@ button:focus{
 
 .services-box{
 	padding: 70px 0px;
-	background-color: #f2f3f5;
 }
 
 .serviceBox{
@@ -722,6 +771,8 @@ button:focus{
     text-align: center;
     position: relative;
     transition: all 0.3s ease 0s;
+    height: 55vh;
+    background: white;
 }
 .serviceBox:hover{ border-color: #00cb86 ; }
 .serviceBox:before{
@@ -781,6 +832,7 @@ button:focus{
 }
 @media only screen and (max-width:990px){
     .serviceBox{ margin-bottom: 30px; }
+
 }
 
 .serviceBox a{
@@ -980,6 +1032,7 @@ button:focus{
 
 .team-box{
 	padding: 70px 0px;
+	background:#dedede73;
 }
 
 .our-team{
@@ -1376,7 +1429,7 @@ select.form-control:not([size]):not([multiple]){
 
 
 .parallax-section{
-  background-image: url(/static/healthapp/images/banner.jpeg);
+  background-image: url(/static/healthapp/images/bg12.png);
 
   min-height: 200vh;
 
@@ -1398,12 +1451,13 @@ select.form-control:not([size]):not([multiple]){
     font-weight:bold;
 }
 .banner-section p{
-    font-size:24px !important;
-    font-weight:300;
+    font-size:26px !important;
+    font-weight:700;
 }
 .services{
     background-color: rgba(15,89,121,0.8);
     position:relative;
+    width:100%;
 }
 .services-item-left {
 
@@ -1762,6 +1816,14 @@ select.form-control:not([size]):not([multiple]){
     transform: scale(1);
 }
 
+
+@media only screen and (min-width: 1200px) {
+.top-header-container {
+     max-width: 960px !important;
+}
+
+}
+
   /* For mobile phones: */
 @media only screen and (max-width: 768px) {
 
@@ -1817,7 +1879,116 @@ select.form-control:not([size]):not([multiple]){
 
 
 
+.owl-banner .item  {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
 
+
+.item-content {
+    background-color: #ffffff;
+    padding: 30px;
+
+}
+
+.owl-banner .item {
+    position: relative;
+}
+
+
+
+.facility-item { transition: all .2s ease-in-out; }
+.facility-item:hover {
+      transform: scale(1.06);
+
+}
+
+
+.owl-banner .owl-nav {
+    position: absolute;
+    top: 34%;
+    width: 100%;
+}
+
+.owl-banner .owl-nav button span {
+    color: #fff;
+    font-size: 36px;
+    width: 50px;
+    height: 45px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgb(240 188 9 / 46%);
+}
+
+
+.owl-banner .owl-nav .owl-prev {
+    position: absolute;
+    left: 35px;
+}
+
+
+.owl-banner .owl-nav .owl-next {
+    position: absolute;
+    right: 35px;
+}
+
+
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+
+.card {
+    border:none !important;
+    border-radius:0px !important;
+}
+
+.img-square-wrapper img {
+    height:40vh;
+}
+
+
+.readmore{
+    font-weight:700;
+    color:#0C3A5B;
+}
+
+.readmore:hover {
+    color:#f0bc09;
+}
+
+
+.facility-item img{
+    display: block;
+    width: 100%;
+}
+
+.facility-item h3{
+    font-size:18px !important;
+}
+
+
+.ulockd-home-slider {
+    margin-top:60px;
+}
+
+
+
+  @keyframes slideInLeft {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(0);
+        }
+      }
+      header {
+        animation: 1s ease-out 0s 1 slideInLeft;
+      }
 
 
 
