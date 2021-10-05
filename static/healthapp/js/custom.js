@@ -32,6 +32,16 @@
 		} else {
 			$('.top-header').removeClass('fixed-menu');
 		}
+
+		var divAnim = document.querySelector("div .owl-banner.owl-carousel");
+		var divPos = divAnim.offsetTop;
+		var screenPos = window.innerHeight/1.2;
+
+		if(divPos > screenPos){
+		    divAnim.classList.add("prettystuff");
+		}else{
+		    divAnim.classList.remove("prettystuff");
+		}
 	});
 
 	/* ..............................................
@@ -178,6 +188,12 @@
 	/* ..............................................
     team popup
     ................................................. */
+
+    /*$(document).ready(function(){
+       var divAnim = document.querySelector("div .owl-banner.owl-carousel");
+       divAnim.classList.add("prettystuff");
+    });*/
+
 
 
 
