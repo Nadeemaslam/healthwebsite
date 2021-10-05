@@ -568,6 +568,10 @@ button:focus{
 
 
 .about-box{
+    background-image: url(/static/healthapp/images/get-in-touch-background.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 100% 160%;
 	padding: 70px 0px;
 }
 
@@ -827,7 +831,7 @@ button:focus{
 .serviceBox .description{
     font-size: 15px;
     color: #999;
-    line-height: 2px;
+    line-height: 20px;
     margin: 0 0 10px 0;
 }
 @media only screen and (max-width:990px){
@@ -1223,6 +1227,10 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .contact-box{
+    background-image: url(/static/healthapp/images/get-in-touch-background.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 5% 6%;
 	padding: 70px 0px;
 }
 
@@ -1912,6 +1920,8 @@ select.form-control:not([size]):not([multiple]){
 .owl-banner .item {
     position: relative;
 }
+
+
 
 
 
