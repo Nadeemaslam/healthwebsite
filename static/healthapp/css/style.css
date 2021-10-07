@@ -115,6 +115,10 @@ button:focus{
     opacity: 1;
 }
 
+.row{
+    margin: 0!important;
+}
+
 
 /*------------------------------------------------------------------
     LOADER 
@@ -472,7 +476,7 @@ button:focus{
 .lbox-details div { margin:10px;}
 .lbox-details::before{
 	content: "";
-	background: rgba(0,0,0,0.5);
+	background: #fff; /*text for pogo slider*/
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -484,7 +488,7 @@ button:focus{
 .lbox-details h1{
 	font-size: 32px;
 	font-family: 'Catamaran', sans-serif;
-	color: #ffffff;
+	color: #f0bc09;
 	font-weight: 600;
 	position: relative;
 	z-index: 3;
@@ -529,7 +533,7 @@ button:focus{
 	z-index: 3;
 }
 .lbox-details a.btn:hover{
-	background: #00cb86;
+	background: #00cb86 ;
 	color: #ffffff;
 }
 
@@ -590,7 +594,7 @@ button:focus{
 }
 
 .title-box p{
-	font-size: 20px;
+	font-size: 30px;
 	font-family: 'Catamaran', sans-serif;
 	color: #222222;
 	font-weight: 500;}
@@ -777,6 +781,7 @@ button:focus{
     transition: all 0.3s ease 0s;
     height: 55vh;
     background: white;
+    margin: 5% 0
 }
 .serviceBox:hover{ border-color: #00cb86 ; }
 .serviceBox:before{
@@ -901,6 +906,7 @@ button:focus{
 	background: #00cb86;
 	color: #ffffff;
 }
+
 
 
 
@@ -1439,7 +1445,7 @@ select.form-control:not([size]):not([multiple]){
 .parallax-section{
   background-image: url(/static/healthapp/images/coverbanner.png);
 
-  min-height: 200vh;
+  min-height: 100vh;
 
   /* Create the parallax scrolling effect */
 
@@ -1507,6 +1513,7 @@ select.form-control:not([size]):not([multiple]){
 .facilities-section{
   background-image:url(/static/healthapp/images/bedded.jpg);
   min-height: 105vh;
+  padding-top: 1%;
 
   /* Create the parallax scrolling effect */
 
@@ -2009,6 +2016,32 @@ select.form-control:not([size]):not([multiple]){
 .ulockd-home-slider {
     margin-top:60px;
 }
+
+.ulockd-home-slider .container-fluid{
+    padding: 0;
+}
+
+.main-banner{
+    padding-top: 20px;
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+}
+/*
+.main-banner .main-banner-title{
+    font-size: 26px !important;
+
+}
+*/
+
+
+.main-banner .row .card{
+
+    box-shadow: 1px 1px 10px grey;
+    min-height: fit-content;
+    height: 100%;
+    font-size: 100%;   
+}
+
 
 
 
