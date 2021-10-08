@@ -34,7 +34,7 @@
 	-webkit-perspective: 1300px;
 	perspective: 1300px;
 	overflow: hidden;
-	background:#000000;
+	
 }
 
 .pogoSlider-loading {
@@ -43,7 +43,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #eaeaea;
+	background: #f0bc09;
 	z-index: 11
 }
 
@@ -75,7 +75,7 @@
 	height: 3px;
 	top: 0;
 	left: 0;
-	background: #fff;
+	background: #f0bc09;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
 	filter: alpha(opacity=20);
 	background: rgba(255, 255, 255, .2);
