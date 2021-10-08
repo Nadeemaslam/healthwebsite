@@ -315,7 +315,7 @@ button:focus{
 	-o-transition: all 0.5s ease-in-out 0s;
 	transition: all 0.5s ease-in-out 0s;
 }
-.top-header .navbar .navbar-collapse ul li a.active::after{
+/*.top-header .navbar .navbar-collapse ul li a.active::after{
 	width: 20px;
 	height: 20px;
 	content: "";
@@ -339,6 +339,7 @@ button:focus{
 	-o-transition: all 0.5s ease-in-out 0s;
 	transition: all 0.5s ease-in-out 0s;
 }
+*/
 .top-header .navbar .navbar-collapse ul li a:hover{
 	background: #f0bc09;
 	color: #ffffff;
@@ -1937,7 +1938,7 @@ select.form-control:not([size]):not([multiple]){
     transition: all .2s ease-in-out;
     margin-bottom:30%;
     background-color: #fff;
-    height: 80vh;
+    height: 83vh;
 
  }
 .facility-item:hover {
@@ -2026,10 +2027,10 @@ select.form-control:not([size]):not([multiple]){
     background-color: rgb(230, 230, 230);
     padding: 10px;
 }
+
 /*
 .main-banner .main-banner-title{
     font-size: 26px !important;
-
 }
 */
 
