@@ -39,7 +39,7 @@
 		margin: 12px 0px;
 	}
 	.lbox-details::before{
-		background: rgba(0,0,0,0.9);
+	
 	}
 	.countdown{
 		height: 188px;
@@ -160,7 +160,7 @@
 		margin: 12px 0px;
 	}
 	.lbox-details::before{
-		background: rgba(0,0,0,0.9);
+		
 	}
 	.countdown{
 		height: 188px;
