@@ -79,7 +79,8 @@
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
 	filter: alpha(opacity=20);
 	background: rgba(255, 255, 255, .2);
-	z-index: 6
+	z-index: 6;
+	display:hidden;
 }
 
 .pogoSlider-progressBar-duration {
@@ -94,6 +95,7 @@
 }
 
 .pogoSlider-dir-btn {
+	display: hidden;
 	position: absolute;
 	z-index: 10;
 	background: 0 0;
@@ -231,19 +233,21 @@
 	margin: 6px 0
 }
 
-.pogoSlider-nav-btn {
-	background: #000;
+.pogoSlider-nav-btn {	
 	border: none;
 	border-radius: 10px;
 	width: 0px;
 	height: 0px;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
-	cursor: pointer
+	cursor: pointer;
+	display: none;
+
 }
 
 .pogoSlider-nav-btn--selected {
 	background: #fff;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, .3)
+	/*box-shadow: 0 1px 1px rgba(0, 0, 0, .3)
+*/
 }
 
 .pogoSlider-slide-slice {

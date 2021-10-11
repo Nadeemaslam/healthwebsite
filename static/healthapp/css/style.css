@@ -444,7 +444,7 @@ button:focus{
 
 .home-slider{
 	position: relative;
-	height: 100%;
+	height: 100%;;
 }
 
 .lbox-caption {
@@ -465,7 +465,7 @@ button:focus{
 .lbox-details {
     display: flex;
     justify-content: space-around;
-    text-align: left;
+    text-align: center;
     vertical-align: middle;
 	position: absolute;
 	top: 0px;
@@ -477,7 +477,7 @@ button:focus{
 .lbox-details div { margin:10px;}
 .lbox-details::before{
 	content: "";
-	background: #fff; /*text for pogo slider*/
+	background: rgba(255, 255, 255, 0); /*text for pogo slider*/
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -2015,24 +2015,43 @@ select.form-control:not([size]):not([multiple]){
 
 
 .ulockd-home-slider {
-    margin-top:60px;
+    margin-top:40px;
 }
 
 .ulockd-home-slider .container-fluid{
     padding: 0;
+    background-color: #fff;
+}
+
+.ulockd-home-slider .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ulockd-home-slider .pogoSlider{
+    width: 70%;
+}
+
+
+.ulockd-home-slider .vision-board{
+    width: 30%;
+    text-align: center;
+    line-height: 1em;
+    padding-top : 10px ;
+    color: gold;
+    font-size: 2em;
+    font-weight: 700;
+
 }
 
 .main-banner{
     padding-top: 20px;
-    background-color: rgb(230, 230, 230);
+    background-color: #62869e;
     padding: 10px;
 }
 
-/*
-.main-banner .main-banner-title{
-    font-size: 26px !important;
-}
-*/
 
 
 .main-banner .row .card{
