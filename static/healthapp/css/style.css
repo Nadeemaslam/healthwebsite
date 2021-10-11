@@ -18,7 +18,7 @@
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
-
+/**/
 body {
     color: #666666;
     font-size: 15px;
@@ -2038,13 +2038,34 @@ select.form-control:not([size]):not([multiple]){
 .ulockd-home-slider .vision-board{
     width: 30%;
     text-align: center;
-    line-height: 1em;
     padding-top : 10px ;
-    color: gold;
     font-size: 2em;
     font-weight: 700;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
+
+.ulockd-home-slider .vision-board::after{
+    content: "\f054";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    margin-left: 0.7em;
+    text-decoration:none;
+    color: grey;
+}
+
+.ulockd-home-slider .vision-board p{
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    font-size: 38px;
+    font-weight: 700;
+    color: #000;
+}
+
+
 
 .main-banner{
     padding-top: 20px;
