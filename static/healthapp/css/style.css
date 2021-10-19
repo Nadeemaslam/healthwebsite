@@ -917,6 +917,7 @@ button:focus{
 
 .gallery-box{
 	padding: 70px 0px;
+	background-color: #fbfbd18a;
 }
 
 .box-gallery{
@@ -1445,8 +1446,7 @@ select.form-control:not([size]):not([multiple]){
 
 .parallax-section{
   background-image: url(/static/healthapp/images/coverbanner.png);
-
-  min-height: 100vh;
+  min-height: 89vh;
 
   /* Create the parallax scrolling effect */
 
@@ -1460,7 +1460,7 @@ select.form-control:not([size]):not([multiple]){
 .banner-section {
     text-align:left;
     padding:40px 0 90px 80px;
-    color:#ffffff;
+    color: #ffffff;
 }
 .banner-section span{
     font-size:54px !important;
@@ -2069,7 +2069,7 @@ select.form-control:not([size]):not([multiple]){
 
 .main-banner{
     padding-top: 20px;
-    background-color: #62869e;
+    background-color: rgba(128, 128, 128, 0.5);
     padding: 10px;
 }
 
