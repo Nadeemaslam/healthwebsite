@@ -80,7 +80,7 @@
 	filter: alpha(opacity=20);
 	background: rgba(255, 255, 255, .2);
 	z-index: 6;
-	display:hidden;
+	display:none;
 }
 
 .pogoSlider-progressBar-duration {
@@ -164,22 +164,26 @@
 .pogoSlider--dirCenterHorizontal .pogoSlider-dir-btn--next,
 .pogoSlider--dirTopRight .pogoSlider-dir-btn--next {
 	right: 14px
+
 }
 
 .pogoSlider--dirBottomLeft .pogoSlider-dir-btn,
 .pogoSlider--dirBottomRight .pogoSlider-dir-btn,
 .pogoSlider--dirCenterVertical .pogoSlider-dir-btn--prev {
-	bottom: 14px
+	bottom: 14px;
 }
 
 .pogoSlider--dirCenterVertical .pogoSlider-dir-btn {
 	left: 50%;
-	margin-left: -10px
+	margin-left: -10px;
+
 }
 
 .pogoSlider--dirCenterHorizontal .pogoSlider-dir-btn {
 	top: 50%;
-	margin-top: -10px
+	margin-top: -10px;
+	display: none;
+
 }
 
 .pogoSlider-nav {

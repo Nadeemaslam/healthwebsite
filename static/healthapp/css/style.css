@@ -472,9 +472,9 @@ button:focus{
 	left: 0;
 	right: 0;
 	height: 100%;
-	padding: 2% 10%;
+	padding: 2.5% 10%;
 }
-.lbox-details div { margin:10px;}
+.lbox-details div { margin:12px;}
 .lbox-details::before{
 	content: "";
 	background: rgba(255, 255, 255, 0); /*text for pogo slider*/
@@ -487,7 +487,7 @@ button:focus{
 }
 
 .lbox-details h1{
-	font-size: 32px;
+	font-size: 38px;
 	font-family: 'Catamaran', sans-serif;
 	color: #f0bc09;
 	font-weight: 600;
@@ -2019,12 +2019,11 @@ select.form-control:not([size]):not([multiple]){
 
 
 .ulockd-home-slider {
-    margin-top:40px;
+
 }
 
 .ulockd-home-slider .container-fluid{
     padding: 0;
-    background-color: #fff;
 }
 
 .ulockd-home-slider .row{
@@ -2032,6 +2031,7 @@ select.form-control:not([size]):not([multiple]){
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    background-color: #67aad7b8;
 }
 
 .ulockd-home-slider .pogoSlider{
@@ -2044,10 +2044,15 @@ select.form-control:not([size]):not([multiple]){
     text-align: center;
     padding-top : 10px ;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 800;
     display: flex;
     flex-direction: row;
     justify-content: right;
+}
+
+.ulockd-home-slider .vision-board h1{
+    color: white;
+    font-weight: bold;
 }
 
 .ulockd-home-slider .vision-board::after{
