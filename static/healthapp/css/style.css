@@ -1445,8 +1445,12 @@ select.form-control:not([size]):not([multiple]){
 
 
 .parallax-section{
-  background-image: url(/static/healthapp/images/coverbanner.png);
-  min-height: 89vh;
+    background-image: url(/static/healthapp/images/coverbanner.png);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 
   /* Create the parallax scrolling effect */
 
