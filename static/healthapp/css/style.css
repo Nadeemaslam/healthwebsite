@@ -22,7 +22,7 @@
 body {
     color: #666666;
     font-size: 15px;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Raleway', 'Catamaran', sans-serif !important;
     line-height: 1.80857;
     overflow-x:hidden !important;
 }
@@ -296,7 +296,7 @@ button:focus{
 
 .top-header .navbar .navbar-collapse ul li a{
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 0.9em;
 	padding: 10px 15px;
 	position: relative;
 	font-weight: 700;
@@ -307,8 +307,8 @@ button:focus{
 
 
 .top-header .navbar .navbar-collapse ul li a.active{
-	background: #f0bc09;
-	color: #ffffff;
+    background: #214763;
+    color: #ffffff;
 	-webkit-transition: all 0.5s ease-in-out 0s;
 	-moz-transition: all 0.5s ease-in-out 0s;
 	-ms-transition: all 0.5s ease-in-out 0s;
@@ -341,8 +341,8 @@ button:focus{
 }
 */
 .top-header .navbar .navbar-collapse ul li a:hover{
-	background: #f0bc09;
-	color: #ffffff;
+	background: #214763;
+    color: #ffffff;
 }
 
 
@@ -488,8 +488,7 @@ button:focus{
 
 .lbox-details h1{
 	font-size: 38px;
-	font-family: 'Catamaran', sans-serif;
-	color: #f0bc09;
+	color: #0f122b;
 	font-weight: 600;
 	position: relative;
 	z-index: 3;
@@ -499,7 +498,6 @@ button:focus{
 .features-list li{
     font-size: 34px;
     color:#ffffff !important;
-    font-family: 'Catamaran', sans-serif;
     font-weight: 600;
     list-style:none;
 }
@@ -519,8 +517,8 @@ button:focus{
 .lbox-details p strong{
 	color: #00cb86;
 	font-size: 40px;
-	font-family: 'Catamaran', sans-serif;
 }
+
 .lbox-details a.btn{
 	background: #12557f;
 	padding: 10px 20px;
@@ -537,6 +535,10 @@ button:focus{
 	background: #00cb86 ;
 	color: #ffffff;
 }
+
+
+
+
 
 
 
@@ -586,9 +588,8 @@ button:focus{
 }
 .title-box h2{
 	font-size: 42px;
-	font-family: 'Catamaran', sans-serif;
-	color: #222222;
-	font-weight: 500;
+	color: #214763;
+	font-weight: 700;
 	position: relative;
 	padding-bottom: 30px;
 	margin-bottom: 15px;
@@ -596,8 +597,7 @@ button:focus{
 
 .title-box p{
 	font-size: 30px;
-	font-family: 'Catamaran', sans-serif;
-	color: #222222;
+	color: #214763;
 	font-weight: 500;}
 
 
@@ -620,7 +620,7 @@ button:focus{
 }
 .about-main-info h2{
 	font-size: 40px;
-	font-family: 'Catamaran', sans-serif;
+
 }
 .about-main-info h2 span{
 	color: #00cb86;
@@ -1265,7 +1265,7 @@ button:focus{
 	font-size: 40px;
 	border: 2px dotted #12557f;
 	margin-right: 10px;
-	color: #f0bc09;
+	color: #1e4761;
 	border-radius: 50%;
 }
 
@@ -1321,7 +1321,7 @@ button:focus{
 }
 
 .submit-button .btn-common{
-	background-color: #f0bc09 ;
+	background-color: #1e4761 ;
 	height: 45px;
 	line-height: 45px;
 	font-size: 16px;
@@ -1339,7 +1339,9 @@ button:focus{
 	transition: all 0.3s;
 }
 .submit-button .btn-common:hover{
-	background-color: #00cb86;
+	background-color: #fff;
+	color: #1e4761;
+	border: 2px solid #1e4761;
 }
 
 .custom-select{
@@ -1446,33 +1448,97 @@ select.form-control:not([size]):not([multiple]){
 
 .parallax-section{
     background-image: url(/static/healthapp/images/coverbanner.png);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-
   /* Create the parallax scrolling effect */
-
     background-blend-mode:overlay;
-    background-color:#3c3c3a63;
+    background-color:#585858cf;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
+
+@media only screen and (min-width: 768x){
+    .parallax-section{
+        height: fit-content;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+
+.parallax-section .new-slider{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffffc2;
+    padding: 1em 0;
+    color: #1e4761
+
+}
+
+.parallax-section .new-slider .carousel{
+    width: 65%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+
+.parallax-section .new-slider .vision{
+    width: 30%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.parallax-section .new-slider .vision:after{
+    content: "\f054";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    margin-left: 0.7em;
+    text-decoration:none;
+    color: grey;
+}
+
+.parallax-section .new-slider .vision h2{
+    color: #224761;
+    font-weight: 700;
+
+}
+
+.parallax-section .new-slider .carousel-item h2{
+    color: #224761;
+    font-size: 2em;
+}
+
+
 .banner-section {
     text-align:left;
     padding:40px 0 90px 80px;
     color: #ffffff;
 }
-.banner-section span{
-    font-size:54px !important;
-    font-weight:bold;
+
+.banner-section h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 3em;
 }
+
 .banner-section p{
-    font-size:26px !important;
-    font-weight:700;
+    font-size: 1.5em !important;
+    font-weight:500;
 }
 .services{
     background-color: rgba(15,89,121,0.8);
@@ -1516,14 +1582,11 @@ select.form-control:not([size]):not([multiple]){
 
 
 .facilities-section{
-  background-image:url(/static/healthapp/images/bedded.jpg);
-  min-height: 105vh;
-  padding-top: 1%;
-
-  /* Create the parallax scrolling effect */
-
-
-  background-position: center center;
+    background-image:url(/static/healthapp/images/bedded.jpg);
+    min-height: 105vh;
+    padding-top: 1%;
+    /* Create the parallax scrolling effect */
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -1572,18 +1635,31 @@ select.form-control:not([size]):not([multiple]){
 
 .button-flex {
     padding:20px 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .button-flex a{
-      background-color: #f0bc09; /* yellow shade */
-      border: none;
-      color: white;
-      padding: 15px 32px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-      cursor: pointer;
+      background-color: white;
+    /* border: 2px solid #1f4862; */
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px #1f4862;
+    color: #1f4862;
+    padding: 0.7em 1.4em;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+.button-flex a:hover{
+    color: #fff;
+    background-color: #1e4761;
+
 }
 
 .mission-item {
@@ -1651,13 +1727,12 @@ select.form-control:not([size]):not([multiple]){
 
 
 .our-mission-section{
-  background-image:url(/static/healthapp/images/mission.jpg);
+  background-image:url(/static/healthapp/images/get-in-touch-background.png);
   min-height: 115vh;
 
   /* Create the parallax scrolling effect */
-
-
-  background-position: center center;
+    background-blend-mode: overlay;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -1845,7 +1920,7 @@ select.form-control:not([size]):not([multiple]){
 
 }
 
-  /* For mobile phones: */
+  /* For mobile phones:
 @media only screen and (max-width: 768px) {
 
     .button-flex a {
@@ -1894,7 +1969,7 @@ select.form-control:not([size]):not([multiple]){
 
 
 
-}
+}*/
 
 
 @keyframes animated-banner{
@@ -1935,14 +2010,11 @@ select.form-control:not([size]):not([multiple]){
 }
 
 
-
-
-
 .facility-item {
     transition: all .2s ease-in-out;
     margin-bottom:30%;
     background-color: #fff;
-    height: 83vh;
+    height: 85vh;
 
  }
 .facility-item:hover {
@@ -1991,6 +2063,7 @@ select.form-control:not([size]):not([multiple]){
 .card {
     border:none !important;
     border-radius:0px !important;
+
 }
 
 .img-square-wrapper img {
@@ -2031,7 +2104,7 @@ select.form-control:not([size]):not([multiple]){
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #67aad7b8;
+    background-color: #deb016;
 }
 
 .ulockd-home-slider .pogoSlider{
@@ -2078,8 +2151,8 @@ select.form-control:not([size]):not([multiple]){
 
 .main-banner{
     padding-top: 20px;
-    background-color: rgba(128, 128, 128, 0.5);
-    padding: 10px;
+    background-color: rgb(239 239 239);
+    padding: 2em;
 }
 
 
@@ -2089,10 +2162,19 @@ select.form-control:not([size]):not([multiple]){
     box-shadow: 1px 1px 10px grey;
     min-height: fit-content;
     height: 100%;
-    font-size: 100%;   
+    font-size: 100%;
 }
 
+.main-banner .col-xs-12{
+    margin-bottom: 2em;
+}
 
+@media only screen and (max-width:768px){
+
+    #services .main-banner-title{
+        display: none;
+    }
+}
 
 
   @keyframes slideInLeft {
