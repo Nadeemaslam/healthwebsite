@@ -296,11 +296,12 @@ button:focus{
 
 .top-header .navbar .navbar-collapse ul li a{
 	text-transform: uppercase;
-	font-size: 0.9em;
-	padding: 10px 15px;
-	position: relative;
-	font-weight: 700;
-	color: #ffffff;
+    font-size: 0.89em;
+    padding: 10px 15px;
+    padding: 10px 15px;
+    position: relative;
+    font-weight: 600;
+    color: #ffffff;
 
 }
 
@@ -596,9 +597,9 @@ button:focus{
 }
 
 .title-box p{
-	font-size: 30px;
+	font-size: 1.5em;
 	color: #214763;
-	font-weight: 500;}
+	font-weight: 400;}
 
 
 
@@ -1477,9 +1478,9 @@ select.form-control:not([size]):not([multiple]){
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #ffffffc2;
+    font-family: "Segoe UI";
+    background-color: #162c46;
     padding: 1em 0;
-    color: #1e4761
 
 }
 
@@ -1509,17 +1510,17 @@ select.form-control:not([size]):not([multiple]){
     font-size: 2em;
     margin-left: 0.7em;
     text-decoration:none;
-    color: grey;
+    color: #fff;
 }
 
 .parallax-section .new-slider .vision h2{
-    color: #224761;
-    font-weight: 700;
+    color: #fff;
+    font-weight: 500;
 
 }
 
 .parallax-section .new-slider .carousel-item h2{
-    color: #224761;
+    color: #fff;
     font-size: 2em;
 }
 
@@ -1527,7 +1528,7 @@ select.form-control:not([size]):not([multiple]){
 .banner-section {
     text-align:left;
     padding:40px 0 90px 80px;
-    color: #ffffff;
+    color: #fff;
 }
 
 .banner-section h1{
@@ -2154,6 +2155,7 @@ select.form-control:not([size]):not([multiple]){
     background-color: rgb(239 239 239);
     padding: 2em;
 }
+
 
 
 
