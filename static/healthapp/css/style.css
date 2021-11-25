@@ -306,6 +306,10 @@ button:focus{
 }
 
 
+#home > div.parallax-section > header > nav > div > a > img{
+    width: 220px;
+}
+
 
 .top-header .navbar .navbar-collapse ul li a.active{
     background: #214763;
